@@ -1,0 +1,19 @@
+
+.imagediv {
+    width: 14vmax;
+    height: 19vmax;
+    background-color: #eee;
+}
+
+.pshimmercardp{
+    background-color: #eee !important;
+    margin: 0 0.5vmax !important;
+    height: 20px;
+}
+
+.productCardSpan1{
+    height: 20px;
+    background-color: #eee;
+    width: 93%;
+    margin: 0.5vmax;
+}

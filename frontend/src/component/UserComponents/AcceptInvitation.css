@@ -1,0 +1,42 @@
+.accept-invitation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f9f9f9;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+.company-logo {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.accept-invitation h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.accept-invitation button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: tomato;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.accept-invitation button:hover {
+    background-color: rgb(214, 84, 61);
+}
+
+.accept-invitation div {
+    font-size: 18px;
+    color: red;
+    margin-top: 20px;
+}

@@ -8,6 +8,27 @@ Our prototype addresses the inefficiencies of collaborative shopping in e-commer
 Solution Overview: 
 Group Cart is an innovative feature that enables seamless collaborative shopping by allowing multiple users to create and share a shopping cart within an e-commerce platform. Instead of switching between messaging apps and the e-commerce site, users can add products, invite others, and discuss purchases in real time—all in one place.
 
+Key Technologies:
+
+Frontend:
+  1. React.js
+  2. Redux
+  3. Tailwind CSS
+  4. Material UI
+
+Backend:
+  1. Node.js
+  2. Express.js
+  3. Socket.io
+  4. MongoDB
+  5. Kafka
+  6. Redis
+  7. JWT (JSON Web Token)
+  8. Nodemailer
+  9. AWS – S3
+  10. AWS - SQS
+  11. GoogleApis
+
 Setup & Installation Guide
   Prerequisites
   Ensure you have the following software installed:

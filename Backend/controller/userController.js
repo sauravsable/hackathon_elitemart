@@ -9,14 +9,19 @@ const {uploadToS3, deleteFromS3} = require('../utils/uploadToS3');
 // User Signup 
 exports.registerUser = async (req, res) => { 
     const {name,email,password} = req.body;
+
     const existingUserName = await User.findOne({ name: name });
+
     if (existingUserName) {
         return res.status(400).json({ success: false, message: 'User Name is not available' });
     }
+
     const existingUserEmail = await User.findOne({ email: email });
+
     if (existingUserEmail) {
         return res.status(400).json({ success: false, message: 'Email already exists.' });
     }
+
     const user = await User.create({name,email,password});
 
     const token = await new Token({

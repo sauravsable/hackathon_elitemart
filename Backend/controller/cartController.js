@@ -72,7 +72,7 @@ try {
     });
 
     if (carts.length === 0) {
-        return next(new ErrorHandler("No Carts Found", 404));
+        return next(new ErrorHandler("No Carts Found", 400));
     }
 
     res.status(200).json({

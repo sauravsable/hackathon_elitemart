@@ -68,9 +68,9 @@ export default function LoginSignup() {
 
   const registerSubmit = (e) => {
     e.preventDefault();
-    const formData = new FormData();
-    Object.entries(user).forEach(([key, value]) => formData.set(key, value));
-    dispatch(register(formData));
+    // const formData = new FormData();
+    // Object.entries(user).forEach(([key, value]) => formData.set(key, value));
+    dispatch(register({name:user.name,email:user.email,password:user.password}));
   };
 
   return (

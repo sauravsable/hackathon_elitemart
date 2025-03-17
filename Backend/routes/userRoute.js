@@ -19,7 +19,7 @@ const router = express.Router();
 const storage = multer.memoryStorage();
 const upload = multer({storage:storage});
 
-router.post("/register",upload.single('avatar'),registerUser);
+router.post("/register",registerUser);
 
 router.route("/login").post(loginUser);
 
